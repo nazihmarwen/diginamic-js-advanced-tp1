@@ -17,6 +17,6 @@ let promesse = new Promise((resolve, reject) => {
 });
 promesse.then((data) => {
     console.log(data);
-    console.log("Population total : " + Planet.countPlanetsPopulation(data));    
+    console.log("La somme de Population : " + Planet.countPlanetsPopulation(data));    
 });
 
